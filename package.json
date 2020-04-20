@@ -8,10 +8,6 @@
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/two44software/two44software.github.io.git"
-  },
   "author": "two44software",
   "license": "ISC",
   "bugs": {

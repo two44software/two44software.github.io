@@ -1,0 +1,23 @@
+{
+  "name": "two44software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://two44software.github.io/",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two44software/two44software.github.io.git"
+  },
+  "author": "two44software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/two44software/two44software.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

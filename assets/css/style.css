@@ -2226,7 +2226,9 @@ section {
   border-color: transparent transparent #c8c8c8;
   font-weight: 500;
 }
-
+.section-technology .icon{
+  border-bottom: none;
+}
 .section-technology .nav-tabs .nav-link:hover {
   border-color: transparent transparent #c8c8c8;
 }
@@ -2251,7 +2253,7 @@ section {
   margin: 15px;
 }
 
-.section-technology .tab-content i {
+.section-technology .tab-content i{
   filter: grayscale(1);
   transition: all 0.5s ease-in-out;
 }
@@ -2686,26 +2688,32 @@ section {
 .bi-display{
   width: 3em;
   height: 2em;
+  color: #333;
+
 }
 
 .bi-grid-1x2{
   width: 3em;
   height: 2em;
+  color: #333;
 }
 
 .bi-phone{
   width: 3em;
   height: 2em;
+  color: #333;
 }
 
 .bi-cloud-upload{
   width: 3em;
   height: 2em;
+  color: #333;
 }
 
 .bi-gear{
   width: 3em;
   height: 2em;
+  color: #333;
 }
 
 .section-project .heading {

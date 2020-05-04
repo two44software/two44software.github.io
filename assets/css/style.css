@@ -2857,6 +2857,43 @@ hr{
   color: #333;
 }
 
+.page-inner .even img {
+  transform: scaleX(-1);
+}
+
+.page-inner .section-service-detail .img-wrap {
+  text-align: right;
+}
+
+.page-inner .section-service-detail.even .img-wrap {
+  text-align: left;
+}
+
+.page-inner .section-service-detail .img-wrap img {
+  width: 480px;
+}
+
+.page-inner #mobile-developemnt .img-wrap img {
+  width: 350px;
+}
+
+.page-inner #mobile-developemnt .img-wrap {
+  text-align: center;
+}
+
+
+.image-size{
+  width: 480px;
+  height: 480px;
+}
+
+.img-wrap{
+  width: 540px;
+  height: 424px;
+}
+
+
+
 
 
 /* GLOBAL STYLES

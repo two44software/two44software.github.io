@@ -2793,9 +2793,7 @@ a:hover{
 
 /* services page */
 
-.section-inner-banner{
-  padding-top: 80px;
-}
+
 
 .no-gutters{
   line-height: 2em;
@@ -2812,11 +2810,7 @@ a:hover{
   background-color: #e96b56!important;
 }
 
-.bottom-space{
-  margin-top: 30px;
-  margin-bottom: 30px;
- 
-}
+
 
 hr{
   width: 60%;
@@ -2850,6 +2844,9 @@ hr{
 
 }
 
+.section-service-detail{
+  padding-top: 20px;
+}
 
 .btn-hover-white:hover{
   background-color: #fff;
@@ -2883,13 +2880,14 @@ hr{
 
 .image-size{
   width: 480px;
-  height: 480px;
+  height: 475px;
 }
 
 .img-wrap{
   width: 540px;
   height: 424px;
 }
+
 
 
 .btn-get-start{
@@ -2939,6 +2937,28 @@ a.btn-get-start:hover{
   width: 480px;
   height: 374px;
   margin-top: 50px;
+}
+
+.inner-cta .heading p{ 
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.inner-cta .heading{
+  border-top: 1px solid #e96b56;
+  border-bottom: 1px solid #e96b56;
+  margin-top: 80-px;
+  padding: 80px 40px 80px 200px;
+  position: relative;
+}
+
+.bottom-space{
+  margin-top: 90px;
+}
+
+.inner-cta .bg-grey{
+  padding: 1276 0 0;
 }
 
 

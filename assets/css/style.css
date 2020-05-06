@@ -2892,6 +2892,56 @@ hr{
 }
 
 
+.btn-get-start{
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 12px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff!important;
+  animation-delay: 0.8s;
+  border: none;
+  background: #333;
+}
+
+a.btn-get-start:hover{
+  color: black!important;
+  background-color: #fff;
+}
+
+.text-color{
+  color:#fff!important;
+  background-color: #e96b56;
+}
+
+.section-width{
+  padding: 50px 0;
+}
+
+.section-cta{
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.font-size p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.img-size{
+  width: 480px;
+  height: 374px;
+  margin-top: 50px;
+}
+
+
 
 
 
@@ -4382,6 +4432,30 @@ section {
     padding-top: 20px;
   }
 }
+
+/* project page */
+
+.heading.content-center{
+  padding-top: 104px;
+}
+
+.section-service-detail{
+  padding: 125px 0;
+}
+
+.bg-whitesmoke{
+  background-color: whitesmoke;
+}
+
+.bg-color{
+  background-color: #fff;
+}
+
+
+.h-top{
+  padding-top: 20px;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing

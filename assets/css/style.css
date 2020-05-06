@@ -2834,6 +2834,16 @@ a.btn-get-start:hover{
   text-align: left;
 }
 
+.img-size{
+  width: 480px;
+  height: 374px;
+  margin-top: 50px;
+}
+
+
+
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 *,

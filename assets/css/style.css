@@ -571,6 +571,10 @@ section {
   margin-bottom: 0;
 }
 
+.section-inner-banner{
+  padding: 0 0 35px;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -2880,12 +2884,25 @@ hr{
 
 .image-size{
   width: 480px;
-  height: 475px;
+  height: 480px;
 }
+
+.image-size-1{
+  width: 350px;
+  height: 350px;
+}
+
+
+
 
 .img-wrap{
   width: 540px;
-  height: 424px;
+  height: 480px;
+}
+
+.img-wrap-1{
+  width: 540px;
+  height: 350px;
 }
 
 
@@ -2948,7 +2965,7 @@ a.btn-get-start:hover{
 .inner-cta .heading{
   border-top: 1px solid #e96b56;
   border-bottom: 1px solid #e96b56;
-  margin-top: 80-px;
+  margin: 0;
   padding: 80px 40px 80px 200px;
   position: relative;
 }

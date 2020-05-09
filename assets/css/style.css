@@ -627,7 +627,38 @@ section {
   transition: all ease-in-out 0.3s;
 }
 
+.featured .icon-box-1 {
+  padding: 40px 45px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+
+.featured .icon-box-2 {
+  padding: 40px 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
 .featured .icon-box i {
+  color: #e96b56;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.featured .icon-box-1 i {
+  color: #e96b56;
+  font-size: 42px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.featured .icon-box-2 i {
   color: #e96b56;
   font-size: 42px;
   margin-bottom: 15px;
@@ -640,10 +671,35 @@ section {
   font-size: 20px;
 }
 
+
+.featured .icon-box-1 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.featured .icon-box-2 h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
 .featured .icon-box h3 a {
   color: #545454;
   transition: 0.3s;
 }
+
+
+.featured .icon-box-1 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
+.featured .icon-box-2 h3 a {
+  color: #545454;
+  transition: 0.3s;
+}
+
 
 .featured .icon-box p {
   color: #545454;
@@ -2102,7 +2158,7 @@ section {
   background: #3b3b3b;
   border-top: 1px solid #474747;
   border-bottom: 1px solid #474747;
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -2140,6 +2196,16 @@ section {
   transition: 0.3s;
 }
 
+.footer-space{
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.footer-link{
+  margin-top: 72px;
+}
+
+
 #footer .footer-top .social-links a:hover {
   background: #e96b56;
   color: #fff;
@@ -2155,9 +2221,7 @@ section {
   padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
+
 
 #footer .footer-top .footer-links ul {
   list-style: none;
@@ -2189,6 +2253,10 @@ section {
   line-height: 1;
 }
 
+.footer-link{
+  margin-top: 72px;
+}
+
 #footer .footer-top .footer-links ul a:hover {
   color: #e96b56;
 }
@@ -2212,8 +2280,6 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-
 
 
 
@@ -3020,10 +3086,10 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul /*{
   margin: 0;
   padding-top: 20px;
-}
+}*/
 
 a:focus,
 a:hover {
@@ -4692,6 +4758,14 @@ section {
   padding: 20px 0 30px 0;
 }
 
+.contact .info-box-1 {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px 0 45px 0;
+}
+
+
 .contact .info-box i {
   font-size: 32px;
   color: #e96b56;
@@ -4699,6 +4773,16 @@ section {
   padding: 8px;
   border: 2px dotted #fef5f4;
 }
+
+
+.contact .info-box-1 i {
+  font-size: 32px;
+  color: #e96b56;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #fef5f4;
+}
+
 
 .contact .info-box h3 {
   font-size: 20px;
@@ -5348,10 +5432,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #404040;
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
   color: #fff;
   font-size: 14px;
 }
+
+
 
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -5521,10 +5607,6 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
-}
-
-.footer-link{
-  margin-top: 30px;
 }
 
 .copyright span{

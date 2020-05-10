@@ -1,9 +1,4 @@
-/**
-* Template Name: Eterna - v2.0.0
-* Template URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -2851,7 +2846,6 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin-left: 45%;
   color: #fff;
   animation-delay: 0.8s;
   border: 2px solid #e96b56;
@@ -3052,7 +3046,7 @@ a.btn-get-start:hover{
   border-top: 1px solid #e96b56;
   border-bottom: 1px solid #e96b56;
   margin: 0tr;
-  padding: 80px 40px 80px 200px;
+  padding: 80px 40px 80px 80px;
   position: relative;
 }
 
@@ -3238,7 +3232,7 @@ a.btn-black {
 .heading h1 {
   font-size: 40px;
   line-height: 48px;
-  margin-top: -5px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

@@ -2213,11 +2213,6 @@ section {
   color: #fff;
 }
 
-
-
-
-
-
 .section-technology .nav-tabs {
   border-bottom: 1px solid #c8c8c8;
   margin-bottom: 50px;
@@ -2225,11 +2220,16 @@ section {
 
 .section-technology .nav-tabs .nav-item.show .nav-link,
 .section-technology .nav-tabs .nav-link.active,
-.section-technology .nav-tabs .nav-link.active:hover {
-  color: #e96b56;
+.section-technology .nav-tabs  {
+  color: #333333;
   border-color: transparent transparent #c8c8c8;
   font-weight: 500;
 }
+
+.nav-link.active:hover{
+  color: #e96b56;
+}
+
 .section-technology .icon{
   border-bottom: none;
 }
@@ -2237,8 +2237,8 @@ section {
   border-color: transparent transparent #e96b56;
 }
 
-.section-technology .nav-tabs .nav-link {
-  color: #e96b56;
+.section-technology .nav-tabs .nav-link  {
+  color: #333;
   border-color: transparent transparent #c8c8c8;
   padding: 0 25px 20px;
 }
@@ -2776,10 +2776,10 @@ section {
 .btn-get-started{
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 16px 16px;
+  padding: 12px 12px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;

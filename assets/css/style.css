@@ -572,7 +572,7 @@ section {
 }
 
 .section-inner-banner{
-  padding: 0 0 35px;
+  padding: 80px 0 35px;
 }
 
 /*--------------------------------------------------------------
@@ -2980,9 +2980,8 @@ hr{
 
 
 
-
 .img-wrap{
-  width: 540px;
+  width: 480px;
   height: 480px;
 }
 
@@ -3029,17 +3028,20 @@ a.btn-get-start:hover{
   text-align: center;
 }
 
-.font-size p{
-  font-size: 1rem;
+
+
+.section-service-detail{
+  font-size:20px;
+  line-height: 28px;
   font-weight: 400;
-  line-height: 1.5;
   text-align: left;
 }
 
 .img-size{
-  width: 480px;
-  height: 374px;
+  width: 350px;
+  height: 300px;
   margin-top: 50px;
+  text-align: right;
 }
 
 .inner-cta .heading p{ 
@@ -4563,7 +4565,7 @@ section {
 }
 
 .section-service-detail{
-  padding: 125px 0;
+  padding: 100px 0 0;
 }
 
 .bg-whitesmoke{
@@ -4876,6 +4878,14 @@ section {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+}
+
+.padding{
+  margin-bottom: 125px;
+}
+
+.pd-bottom{
+  padding-bottom: 100px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {

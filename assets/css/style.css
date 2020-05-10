@@ -3045,11 +3045,11 @@ a.btn-get-start:hover{
 }
 
 .inner-cta .heading{
-  border-top: 1px solid #e96b56;
-  border-bottom: 1px solid #e96b56;
-  margin: 0tr;
+  margin: 0;
   padding: 80px 40px 80px 80px;
   position: relative;
+  margin-top: 63px;
+  margin-bottom: 30px;
 }
 
 .bottom-space{
@@ -3060,8 +3060,15 @@ a.btn-get-start:hover{
   padding: 1276 0 0;
 }
 
+.bg-gry{
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
 
-
+.bg-gry-1{
+  padding-top: 40px;
+  margin-top: 40px;
+}
 
 
 /* GLOBAL STYLES

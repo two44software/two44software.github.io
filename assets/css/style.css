@@ -1,5 +1,4 @@
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1545,7 +1544,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #e96b56;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -2882,6 +2881,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
+  margin-left: 45%;
   color: #fff;
   animation-delay: 0.8s;
   border: 2px solid #e96b56;
@@ -3010,9 +3010,10 @@ hr{
 
 
 
+
 .img-wrap{
-  width: 480px;
-  height: 480px;
+  width: 350px;
+  height: 300px;
 }
 
 .img-wrap-1{
@@ -3058,20 +3059,17 @@ a.btn-get-start:hover{
   text-align: center;
 }
 
-
-
-.section-service-detail{
-  font-size:20px;
-  line-height: 28px;
+.font-size p{
+  font-size: 1rem;
   font-weight: 400;
+  line-height: 1.5;
   text-align: left;
 }
 
 .img-size{
-  width: 350px;
-  height: 300px;
+  width: 480px;
+  height: 374px;
   margin-top: 50px;
-  text-align: right;
 }
 
 .inner-cta .heading p{ 
@@ -4607,7 +4605,7 @@ section {
 }
 
 .section-service-detail{
-  padding: 100px 0 0;
+  padding: 100px 0;
 }
 
 .bg-whitesmoke{
@@ -4889,7 +4887,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #e96b56;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -4920,14 +4918,6 @@ section {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
-}
-
-.padding{
-  margin-bottom: 125px;
-}
-
-.pd-bottom{
-  padding-bottom: 100px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
